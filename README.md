@@ -2,7 +2,7 @@
 
 ## Change Log
 
-N/A
+14/09: Clarified how to handle the arrows and magnifying glass icons; clarified that for task 2 you don't actually need to build any dynamic drop downs etc, but just the static page with `<input />` tags; dimensions for images also fixed up.
 
 ## 1. Before you start
 
@@ -19,15 +19,15 @@ This assessment focuses on demonstrating skills with HTML ("Hyper Text Markup La
 ### 1.2. Lectures to watch
 
 You will _need_ to watch at least the following lectures before starting (it will help you get started):
- * [HTML Fundamentals](https://cgi.cse.unsw.edu.au/~cs6080/23T1/content/lectures/html-fundamentals)
- * [CSS Rules](https://cgi.cse.unsw.edu.au/~cs6080/23T1/content/lectures/css-rules)
- * [CSS Formatting](https://cgi.cse.unsw.edu.au/~cs6080/23T1/content/lectures/css-formatting)
- * [Flexbox](https://cgi.cse.unsw.edu.au/~cs6080/23T1/content/lectures/css-flexbox)
- * [Mobile CSS](https://cgi.cse.unsw.edu.au/~cs6080/23T1/content/lectures/css-mobile)
+ * [HTML Fundamentals](https://cgi.cse.unsw.edu.au/~cs6080/23T3/content/lectures/html-fundamentals)
+ * [CSS Rules](https://cgi.cse.unsw.edu.au/~cs6080/23T3/content/lectures/css-rules)
+ * [CSS Formatting](https://cgi.cse.unsw.edu.au/~cs6080/23T3/content/lectures/css-formatting)
+ * [Flexbox](https://cgi.cse.unsw.edu.au/~cs6080/23T3/content/lectures/css-flexbox)
+ * [Mobile CSS](https://cgi.cse.unsw.edu.au/~cs6080/23T3/content/lectures/css-mobile)
  
 You will _need_ to watch at least the following lectures to finish the assessment completely:
- * [Fonts](https://cgi.cse.unsw.edu.au/~cs6080/23T1/content/lectures/css-fonts)
- * [Dev Tools] (https://cgi.cse.unsw.edu.au/~cs6080/23T1/content/lectures/dev-tools)
+ * [Fonts](https://cgi.cse.unsw.edu.au/~cs6080/23T3/content/lectures/css-fonts)
+ * [Dev Tools] (https://cgi.cse.unsw.edu.au/~cs6080/23T3/content/lectures/dev-tools)
 
 ## 2. Tasks
 
@@ -35,7 +35,7 @@ When we refer to "viewport width" below, we're referring to the size you can set
 
 ### 2.1. Task 1 - Static, fixed size page
 
-Build a page that looks identical to `task1/page.PNG`. The window width you should work with is 1219 x 883 pixels. You 
+Build a page that looks identical to `task1/page.PNG`. The window width you should work with is 1981 x 844 pixels. You 
 are only allowed to use HTML and CSS for this task. No external libraries are permitted.
 
 ![](./task1/page.PNG)
@@ -46,13 +46,15 @@ Please build your page in `task1/index.html`. You are welcome to create as many 
 
 * The assets are provided in `task1/assets/text.txt` give you the text to 
 put on the page.
+* For the arrows, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
 * Your font doesn't have to match exactly. You can use font-family `Arial` or `Helvetica` for the page.
-* The living in Antarctic worksheet can link to the following: https://www.livescience.com/21677-antarctica-facts.html
 
 ### 2.2. Task 2 - Static, fixed size page
 
 Build a page that looks identical to `task2/page.PNG`. The window width you should work with is 786 x 1120 pixels. You are 
 only allowed to use HTML and CSS for this task. No external libraries are permitted.
+
+You can assume that all the input fields are `<input />` tags. These inputs do not need any drop down behaviour or dynamic styling when being clicked etc. They can be assumed to be static text inputs that have a text of colour `#000000` when text is inputted. None of the text inputs need to deal with text longer than 10 characters.
 
 ![](./task2/page.PNG)
 
@@ -61,6 +63,7 @@ Please build your page in `task2/index.html`. You are welcome to create as many 
 #### Assets
 * The assets are provided in `task1/assets` and provide you with the background and calendar.
 * For the two car images you can just use emojis (remember: emojis are text characters too).
+* For the right arrow and the magnifying glass, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
 
 ### 2.3. Task 3 - Responsive static page
 
