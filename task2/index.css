@@ -1,8 +1,8 @@
 body {
-    background-image: url("./assets/background.png");
-    background-position: center;
-    background-repeat: no-repeat;
+    margin: 0;
     width: 786px;
     height: 1120px;
     overflow: hidden;
+    background-image: url("./assets/background.png");
+    background-position: right;
 }
