@@ -1,78 +1,95 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dddddd;
   display: flex;
-  justify-content: space-between;
-  height: 883px;
-  max-width: 1219px;
-  margin: 0;
+  height: 844px;
+  width: 1981px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar {
   height: 100%;
-  flex: 1;
   background-color: #123262;
   color: white;
-  padding: 10px 30px;
+  padding-top: 32px;
+}
+
+.left {
+  width: 500px;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
 .middle {
-  flex: 2;
+  width: 995px;
+  padding: 55px 30px;
+}
+
+.right {
+  width: 486px;
+  padding-left: 17px;
+  padding-right: 37px;
 }
 
 .announce-wrapper {
-  margin: 35px 20px;
+  width: 935px;
 }
 
 .announce-header {
   background-color: #eae18a;
+  padding: 5px 20px;
+}
+
+h1 {
   color: #84180f;
-  font-weight: 1000;
-  font-size: large;
-  padding: 7px 15px;
+  font-weight: 800;
+  font-size: 32px;
 }
 
 .announce-content {
   background-color: #fbf9e7;
-  font-size: medium;
-  padding: 15px 15px;
-  word-spacing: 1.5px;
+  padding: 23px 20px;
+}
+
+p {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
 }
 
 h4 {
-  display: flex;
-}
-
-h2, h3 {
-  padding: 3px 20px;
+  font-size: 24px;
 }
 
 h2 {
+  margin-top: 40px;
   color: #123262;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
 }
 
 .divider {
-  border-top: 2px dotted #829aaa;
-  width: 270px;
+  border-bottom: 2px dotted #829aaa;
+  width: 100%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  padding-left: 2px;
 }
 
-.arrow {
-  display: block;
-  margin: 30px auto;
-  width: 6px;
-  height: 6px;
-  border-top: 3px solid #829aaa;
-  border-left: 3px solid #829aaa;
-  transform: rotate(135deg);
-}
-
-.arrow::after {
-  content: "";
-  display: block;
-  width: 2px;
-  height: 6px;
-  background-color: #829aaa;
-  transform: rotate(-45deg) translate(15px, 4px);
-  left: 0;
-  top: 0;
+svg {
+  width: 40px;
+  margin-right: 8px;
 }
