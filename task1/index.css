@@ -7,65 +7,54 @@ body {
   width: 1981px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .sidebar {
   height: 100%;
   background-color: #123262;
   color: white;
   padding-top: 32px;
 }
-
 .left {
   width: 485px;
   padding-left: 30px;
   padding-right: 40px;
 }
-
 .middle {
   width: 995px;
   padding: 55px 30px;
 }
-
 .right {
   width: 486px;
   padding-left: 17px;
   padding-right: 37px;
 }
-
 .announce-wrapper {
   width: 935px;
 }
-
 .announce-header {
   background-color: #eae18a;
   padding: 5px 20px;
   box-sizing: border-box;
   margin: 0;
 }
-
 h1 {
   color: #84180f;
   font-weight: 800;
   font-size: 32px;
 }
-
 .announce-content {
   background-color: #fbf9e7;
   box-sizing: border-box;
   margin: 0;
   padding: 23px 20px;
 }
-
 p {
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
 }
-
 h4 {
   font-size: 24px;
 }
-
 h2 {
   margin-top: 40px;
   color: #123262;
@@ -73,14 +62,12 @@ h2 {
   font-weight: 700;
   line-height: 42px;
 }
-
 h3 {
   margin-top: 30px;
   font-size: 28px;
   font-weight: 500;
   line-height: 42px;
 }
-
 .pick-container {
   border-bottom: 2px dotted #829aaa;
   width: 100%;
@@ -89,7 +76,6 @@ h3 {
   align-items: center;
   padding-left: 2px;
 }
-
 svg {
   width: 40px;
   margin-right: 8px;
