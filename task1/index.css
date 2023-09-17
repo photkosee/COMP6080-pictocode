@@ -1,9 +1,6 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
+  margin: 0;
+  padding: 0;
   background-color: #dddddd;
   display: flex;
   height: 844px;
@@ -19,7 +16,7 @@ body {
 }
 
 .left {
-  width: 500px;
+  width: 485px;
   padding-left: 30px;
   padding-right: 40px;
 }
@@ -42,6 +39,8 @@ body {
 .announce-header {
   background-color: #eae18a;
   padding: 5px 20px;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 h1 {
@@ -52,6 +51,8 @@ h1 {
 
 .announce-content {
   background-color: #fbf9e7;
+  box-sizing: border-box;
+  margin: 0;
   padding: 23px 20px;
 }
 
@@ -83,7 +84,7 @@ h3 {
 .divider {
   border-bottom: 2px dotted #829aaa;
   width: 100%;
-  height: 76px;
+  height: 74px;
   display: flex;
   align-items: center;
   padding-left: 2px;
