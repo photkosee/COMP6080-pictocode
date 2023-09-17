@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 2</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <main>
-        
-    </main>
+  <section class="search-bar">
+    <div class="search-wrapper">
+      <div class="blue-car-icon-wrapper">
+        <img src="./assets/blue-car.png" alt="blue-car" class="blue-car-icon">    
+      </div>
+      <input type="text" placeholder="Find my car" name="search-input" id="search-input" class="search-input">
+      <div class="search-icon-wrapper">
+        <i class="fa fa-search"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="body-container">
+    <div class="background-wrapper">
+      <div class="intro-wrapper">
+        Hello! Welcome to my car booking systems.
+        Please book a car.
+        <img src="./assets/red-car.png" alt="red-car" class="red-car">
+      </div>
+
+      <div class="booking-wrapper">
+        <h2>
+          Book Parking
+        </h2>
+        <div class="selection-wrapper">
+          <div class="selection-box date-selection">
+            <input type="text" placeholder="From" name="" id="">
+            <img src="./assets/calendar.png" alt="calender-icon" class="calender-icon">
+          </div>
+          <div class="selection-box date-selection">
+            <input type="text" placeholder="To" name="" id="">
+            <img src="./assets/calendar.png" alt="calender-icon" class="calender-icon">
+          </div>
+          <button class="selection-box">
+            See parking options
+            <svg fill="#ffffff" viewBox="-140 0 500 500" xmlns="http://www.w3.org/2000/svg" class="selection-arrow">
+              <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="deal-wrapper">
+          <h3>99 Days for $99* Book now to save</h3>
+          <svg fill="#893c8c" viewBox="-140 0 500 500" xmlns="http://www.w3.org/2000/svg" class="purple-arrow">
+            <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="shop-wrapper">
+        <div class="promo-container">
+          <h1>Shop for more</h1>
+          <h5>SHOP ONLINE & SAVE AN ADDITIONAL 10%*</h5>
+        </div>
+        <button>
+          <svg fill="#ffffff" viewBox="-128 0 512 512" xmlns="http://www.w3.org/2000/svg" class="white-arrow">
+            <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
