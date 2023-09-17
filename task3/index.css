@@ -1,9 +1,9 @@
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   width: 1197px;
   height: 1610px;
   font-family: Arial, Helvetica, sans-serif;
@@ -28,15 +28,17 @@ h1 {
   font-size: 63px;
   font-weight: bold;
   line-height: 58px;
+  margin: 0;
 }
 
 p {
   color: #b09f9f;
   font-size: 17px;
   font-weight: 600;
+  margin: 0;
 }
 
-.divider {
+.divider-top {
   background-color: #373737;
   height: 1px;
   width: 425px;
@@ -62,6 +64,7 @@ h3 {
   font-size: 22px;
   font-weight: 600;
   line-height: 20px;
+  margin: 0;
 }
 
 .sub-promo div {
@@ -73,6 +76,7 @@ h4 {
   font-size: 20px;
   color: #b09f9f;
   font-weight: 600;
+  margin: 0;
 }
 
 img {
@@ -83,7 +87,7 @@ img {
   margin-top: 90px;
 }
 
-.divider-b {
+.divider-top-middle {
   width: 100%;
   background-color: #252525;
   display: flex;
@@ -92,7 +96,7 @@ img {
   padding: 17px 20px;
 }
 
-.divider-b div {
+.divider-top-middle div {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -190,7 +194,7 @@ button {
   font-size: 20px;
 }
 
-.divider-c {
+.divider-top-middleottom {
   height: 1px;
   background-color: #252525;
   margin-top: 60px;
@@ -248,7 +252,7 @@ button {
     margin-top: 40px;
   }
 
-  .top .divider {
+  .top .divider-top {
     width: 453px;
     position: absolute;
     margin-top: 15px;
@@ -263,7 +267,7 @@ button {
     margin-bottom: 118px;
   }
 
-  .divider-b {
+  .divider-top-middle {
     display: block;
     padding-left: 15px;
     padding-right: 8px;
@@ -277,7 +281,7 @@ button {
     font-size: 13px;
   }
 
-  .divider-b div {
+  .divider-top-middle div {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
@@ -333,7 +337,7 @@ button {
     grid-template-columns: 73px 140px 117px 75px;
   }
 
-  .divider-c {
+  .divider-top-middleottom {
     margin-top: 50px;
   }
 
