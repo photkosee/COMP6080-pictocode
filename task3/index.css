@@ -84,19 +84,19 @@ img {
 }
 
 .middle {
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
-.divider-top-middle {
+.divider-middle {
   width: 100%;
   background-color: #252525;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 17px 20px;
+  padding: 19px 20px;
 }
 
-.divider-top-middle div {
+.divider-middle div {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -104,6 +104,7 @@ img {
 
 .diamond {
   height: 45px;
+  margin: 0;
 }
 
 .learn-more {
@@ -194,10 +195,10 @@ button {
   font-size: 20px;
 }
 
-.divider-top-middleottom {
+.divider-bottom {
   height: 1px;
   background-color: #252525;
-  margin-top: 60px;
+  margin-top: 63px;
 }
 
 .details {
@@ -267,12 +268,10 @@ button {
     margin-bottom: 118px;
   }
 
-  .divider-top-middle {
+  .divider-middle {
     display: block;
-    padding-left: 15px;
-    padding-right: 8px;
-    padding-top: 15px;
-    margin-top: -5px;
+    padding: 15px;
+    margin-top: -9px;
   }
 
   .learn-more {
@@ -281,7 +280,7 @@ button {
     font-size: 13px;
   }
 
-  .divider-top-middle div {
+  .divider-middle div {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
@@ -293,7 +292,7 @@ button {
   .sign-up {
     font-size: 15px;
     padding: 10px 45px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .bottom {
@@ -337,8 +336,8 @@ button {
     grid-template-columns: 73px 140px 117px 75px;
   }
 
-  .divider-top-middleottom {
-    margin-top: 50px;
+  .divider-bottom {
+    margin-top: 53px;
   }
 
   .row-heading h3 {
