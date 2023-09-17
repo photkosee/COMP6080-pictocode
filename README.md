@@ -2,7 +2,8 @@
 
 ## Change Log
 
-14/09: Clarified how to handle the arrows and magnifying glass icons; clarified that for task 2 you don't actually need to build any dynamic drop downs etc, but just the static page with `<input />` tags; dimensions for images also fixed up.
+* 14/09: Clarified how to handle the arrows and magnifying glass icons; clarified that for task 2 you don't actually need to build any dynamic drop downs etc, but just the static page with `<input />` tags; dimensions for images also fixed up.
+* 17/09: Updated wording to use `em` or `rem` instead of `pt` to match the style guide (the style guide evolved since the inception of this assignment)
 
 ## 1. Before you start
 
@@ -44,7 +45,7 @@ Please build your page in `task1/index.html`. You are welcome to create as many 
 
 #### Assets
 
-* The assets are provided in `task1/assets/text.txt` give you the text to 
+* The assets are provided in `task2/assets/text.txt` give you the text to 
 put on the page.
 * For the arrows, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
 * Your font doesn't have to match exactly. You can use font-family `Arial` or `Helvetica` for the page.
@@ -61,7 +62,7 @@ You can assume that all the input fields are `<input />` tags. These inputs do n
 Please build your page in `task2/index.html`. You are welcome to create as many CSS files that you need in the `task2` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
 #### Assets
-* The assets are provided in `task1/assets` and provide you with the background and calendar.
+* The assets are provided in `task3/assets` and provide you with the background and calendar.
 * For the two car images you can just use emojis (remember: emojis are text characters too).
 * For the right arrow and the magnifying glass, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
 
@@ -96,7 +97,10 @@ Two things will want to seek external help for are:
 
 ### Font Sizes
 
-You will also be curious to know what the correct font-size and other font properties are for this assignment. Part of this assignment is trying to explore the relationship between how a font looks and the properties that are set for the element. Generally the best approach is to set a basic font size (e.g. `font-size: 20pt`), see how it looks, and if it just generally seems too big or too small, then adjust the `pt` value appropriately until you're comfortable with it. You will not be penalised for having font that is off by a few pixels in size. We will cover best practices when it comes to font sizing later in the course. 
+You will also be curious to know what the correct font-size and other font properties are for this assignment. Part of this assignment is trying to explore the relationship between how a font looks and the properties that are set for the element. 
+Generally the best approach is to set a basic font size (e.g. `font-size: 1.1em`), see how it looks, and if it just generally seems too big or too small, then adjust the `em` or `rem` value appropriately until you're comfortable with it. You will not 
+be 
+penalised for having font that is off by a few pixels in size. We will cover best practices when it comes to font sizing later in the course. 
 
 ## 4. Constraints & Assumptions
 
