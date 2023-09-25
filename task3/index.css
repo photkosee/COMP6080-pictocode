@@ -3,21 +3,19 @@
 }
 body {
   margin: 0;
-  width: 1197px;
-  height: 1610px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   background-color: #141414;
-  padding-left: 40px;
-  padding-top: 50px;
-  padding-right: 50px;
+  padding: 50px 50px 0 40px;
 }
 .top {
   display: flex;
-  column-gap: 148px;
+  gap: 25px;
+}
+.top-left, .top-right {
+  flex: 1;
 }
 .header {
-  width: 453px;
   height: 250px;
 }
 h1 {
@@ -184,12 +182,76 @@ span {
   margin-top: 43px;
 }
 
-@media (max-width: 454px) {
+@media (max-width: 1100px) {
   body {
-    width: 454px;
-    height: 1873px;
     padding: 25px
   }
+  .row {
+    display: block;
+  }
+  .big-compare {
+    display: none;
+  }
+  .small-compare {
+    display: block;
+    font-size: 31px;
+  }
+  .compare {
+    border: none;
+    margin-bottom: 15px;
+  }
+  .us {
+    border: none;
+  }
+  .divider-bottom {
+    margin-top: 50px;
+  }
+  .example .sub-heading {
+    height: 90px;
+  }
+  .example .grid-item {
+    height: 85px;
+    padding: 10px;
+  }
+  .choice-wrapper {
+    grid-template-columns: 1fr 2fr 1.5fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .top {
+    display: block;
+  }
+  .top-left .header {
+    height: 200px;
+  }
+  .top-right .header {
+    height: 150px;
+  }
+  .header div {
+    margin-bottom: -10px;
+  }
+  .promo {
+    margin-top: 40px;
+  }
+  .divider-top {
+    width: 453px;
+    position: absolute;
+    margin-top: 15px;
+    left: 0;
+  }
+  .promo div {
+    margin-bottom: 10px;
+  }
+  .sub-promo p {
+    margin-top: -2px;
+  }
+  .sub-promo {
+    margin-bottom: 118px;
+  }
+}
+
+@media (max-width: 600px) {
   h1 {
     font-size: 35px;
     line-height: 30px;
@@ -209,44 +271,31 @@ span {
     font-size: 14px;
     font-weight: 600;
   }
-  .top {
-    display: block;
-  }
   .top p {
     font-size: 13px;
   }
-  .header {
+  .top-left .header,
+  .top-right .header {
     font-size: 35px;
     height: 83px;
   }
-  .header div {
-    margin-bottom: -10px;
-  }
-  .promo {
-    margin-top: 40px;
-  }
   .sub-promo-header {
     font-size: 14px;
-  }
-  .divider-top {
-    width: 453px;
-    position: absolute;
-    margin-top: 15px;
-    left: 0;
-  }
-  .promo div {
-    margin-bottom: 10px;
-  }
-  .sub-promo p {
-    margin-top: -2px;
-  }
-  .sub-promo {
-    margin-bottom: 118px;
   }
   .divider-middle {
     display: block;
     padding: 17px 15px;
     margin-top: -9px;
+  }
+  .divider-middle div {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .diamond {
+    height: 35px;
+  }
+  .bottom {
+    margin-top: 101px;
   }
   .diamond-wrapper h3 {
     font-size: 17px;
@@ -256,65 +305,25 @@ span {
     padding: 7px 12px;
     font-size: 13px;
   }
-  .divider-middle div {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
-  .diamond {
-    height: 35px;
-  }
   .sign-up {
     font-size: 15px;
     padding: 10px 45px;
     margin-top: 25px;
-  }
-  .bottom {
-    margin-top: 101px;
-  }
-  .row {
-    display: block;
-  }
-  .big-compare {
-    display: none;
-  }
-  .small-compare {
-    display: block;
-    font-size: 31px;
   }
   .sub-heading {
     font-size: 15px;
     height: 52px;
     padding-top: 10px;
   }
-  .compare {
-    border: none;
-    margin-bottom: 15px;
-  }
-  .us {
-    border: none;
-  }
   .grid-item {
     font-size: 15px;
     height: 52px;
-  }
-  .choice-wrapper {
-    grid-template-columns: 73px 140px 117px 75px;
-  }
-  .divider-bottom {
-    margin-top: 50px;
   }
   .example .row-heading h3 {
     margin-top: 9px;
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 10px;
-  }
-  .example .sub-heading {
-    height: 90px;
-  }
-  .example .grid-item {
-    height: 85px;
-    padding: 10px;
   }
   span {
     font-size: 14px;
